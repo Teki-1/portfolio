@@ -30,6 +30,16 @@ const projects = [
     demoUrl: "https://time-tracking-dashboard-nine-xi.vercel.app/",
     githubUrl: "https://github.com/Teki-1/time-tracking-dashboard",
   },
+  {
+    id: 4,
+    title: "Product list with cart",
+    description:
+      "A responsive React application for displaying desserts with a working shopping cart.  The cart dynamically updates totals and shows per-product counts.",
+    image: "/projects/products-list-with-cart.png ",
+    tags: ["HTML", "CSS", "JavaScript", "React"],
+    demoUrl: "https://product-list-with-cart-main-lime.vercel.app/",
+    githubUrl: "https://github.com/Teki-1/product-list-with-cart-main",
+  },
 ];
 
 export const ProjectsSection = () => {
