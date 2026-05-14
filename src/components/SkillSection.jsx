@@ -2,29 +2,29 @@ import { useState } from "react";
 import { cn } from "../libs/utils";
 
 const skills = [
-  { name: "HTML", percentage: 75, level: "Intermediate", category: "Frontend" },
-  { name: "CSS", percentage: 65, level: "Intermediate", category: "Frontend" },
+  { name: "HTML", percentage: 75, category: "Frontend" },
+  { name: "CSS", percentage: 65, category: "Frontend" },
   {
     name: "JavaScript",
     percentage: 55,
-    level: "Intermediate",
+
     category: "Frontend",
   },
-  { name: "React", percentage: 40, level: "Beginner", category: "Frontend" },
+  { name: "React", percentage: 40, category: "Frontend" },
   {
     name: "TypeScript",
     percentage: 35,
-    level: "Beginner",
+
     category: "Frontend",
   },
-  { name: "Node.js", percentage: 40, level: "Beginner", category: "Backend" },
+  { name: "Node.js", percentage: 40, category: "Backend" },
   {
     name: "Git/GitHub",
     percentage: 50,
-    level: "Intermediate",
+
     category: "Tools",
   },
-  { name: "VS Code", percentage: 65, level: "Intermediate", category: "Tools" },
+  { name: "VS Code", percentage: 65, category: "Tools" },
 ];
 
 const categories = ["all", "Frontend", "Backend", "Tools"];
@@ -33,7 +33,7 @@ export const SkillSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const filteredSkills = skills.filter(
-    (skill) => activeCategory === "all" || skill.category === activeCategory
+    (skill) => activeCategory === "all" || skill.category === activeCategory,
   );
 
   return (
@@ -52,7 +52,7 @@ export const SkillSection = () => {
                 "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
-                  : "bg-secondary/70 text-foreground hover:bg-secondary"
+                  : "bg-secondary/70 text-foreground hover:bg-secondary",
               )}
               onClick={() => setActiveCategory(category)}
             >

@@ -11,15 +11,14 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left side text */}
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">Aspiring Web Developer</h3>
+            <h3 className="text-2xl font-semibold"> Web Developer</h3>
             <p className="text-muted-foreground">
-              I'm Nour Mohamed, an aspiring frontend developer passionate about
-              building clean and user-friendly websites.
+              I'm Nour Mohamed, a frontend developer passionate about building
+              clean and user-friendly websites.
             </p>
             <p className="text-muted-foreground">
-              With a growing foundation in HTML, CSS, and JavaScript, I'm eager
-              to learn, improve my skills, and contribute to meaningful
-              projects.
+              With a foundation in HTML, CSS, and JavaScript, I'm eager to
+              learn, improve my skills, and contribute to meaningful projects.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -27,7 +26,7 @@ export const AboutSection = () => {
                 Get in touch
               </a>
               <a
-                href="/Nour-Elnabarawy--Resume.pdf"
+                href="/Nour Mohamed Elnabarawy Resume.pdf"
                 download
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 hover:text-background transition-colors duration-300"
               >

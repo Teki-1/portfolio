@@ -37,7 +37,7 @@ const projects = [
       "A responsive React application for displaying desserts with a working shopping cart.  The cart dynamically updates totals and shows per-product counts.",
     image: "/projects/products-list-with-cart.png ",
     tags: ["HTML", "CSS", "JavaScript", "React"],
-    demoUrl: "https://movie-api-flax-ten.vercel.app/",
+    demoUrl: "https://product-list-with-cart-main-lime.vercel.app/",
     githubUrl: "https://github.com/Teki-1/product-list-with-cart-main",
   },
   {
@@ -47,7 +47,7 @@ const projects = [
       "Built a React-based movie search application that integrates the TMDB API to fetch and display movie details such as posters, ratings, and release years.",
     image: "/projects/movie-list.png ",
     tags: ["HTML", "CSS", "JavaScript", "React"],
-    demoUrl: "https://product-list-with-cart-main-lime.vercel.app/",
+    demoUrl: "https://movie-api-flax-ten.vercel.app/",
     githubUrl: "https://github.com/Teki-1/movie-api",
   },
 ];
